@@ -1,0 +1,24 @@
+{
+  "name": "todo-tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^27.4.1",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.3"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "node-mocks-http": "^1.11.0",
+    "supertest": "^6.2.2"
+  }
+}
